@@ -1,9 +1,9 @@
 import React from 'react'
-import Calculator from './calculator'
+import Cal from './Cal.jsx'
 
 const App = () => {
   return (
-    <Calculator/>
+    <Cal/>
   )
 }
 

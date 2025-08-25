@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Calculator, Coins, TrendingUp, Gem, ArrowLeft } from 'lucide-react';
 
-const Calculators = () => {
+const Cal = () => {
   const [activeCalculator, setActiveCalculator] = useState(null);
   const [results, setResults] = useState({});
 
@@ -567,4 +567,4 @@ const Calculators = () => {
   );
 };
 
-export default Calculators;
+export default Cal;
